@@ -8,3 +8,5 @@ res2=$(( $a * $b + $c ))
 echo "$res2"
 res3=$(( $c + $a / $b ))
 echo "$res3"
+res4=$(( $a % $b + $c ))
+echo "$res4"
