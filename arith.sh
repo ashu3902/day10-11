@@ -2,3 +2,5 @@
 echo "This is Sorting arithmetic computation problem"
 echo "Enter 3 values"
 read a b c
+res1=$(( $a + $b * $c ))
+echo "$res1"
